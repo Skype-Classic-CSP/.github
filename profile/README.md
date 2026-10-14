@@ -1,4 +1,4 @@
-<h1>Skype Classic Protocol Documentation</h1>
+<h1>Classic Skype Network Protocol</h1>
 
 Classic Skype uses a combination of client-server signaling and peer-to-peer (P2P) networking. Depending on the type of communication and network conditions, Skype can use both TCP and UDP for network traffic.
 
