@@ -7,7 +7,6 @@ This documentation explores the networking architecture and protocol behavior of
 In 2012, Microsoft began moving Skype's supernode infrastructure from user-hosted machines to dedicated servers in data centers. This marked a significant change in how the network was managed, while some aspects of Skype's P2P architecture remained in use.
 
 This project investigates Classic Skype protocol implementations across versions 1.4–7.41.
-
 The research follows two development tracks:
 
 Skype 1.4: An experimental server currently supports authentication. Further work will focus on understanding its original peer-to-peer architecture and associated protocols.
