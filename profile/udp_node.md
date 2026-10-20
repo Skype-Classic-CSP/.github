@@ -3,6 +3,6 @@ During authorization, Skype sends a probe packet to UDP servers to check the ava
 
 He doesn’t wait for a response from the server; if it didn’t respond, then it didn’t respond — he just keeps going.
 
-| Тип данных | Примерное содержание | Значение |
+| transId |  |  |
 | ---------- | -------------------- | -------- |
-| UL         | `05 00 00 00`        | Таймер для команды `MRIM_CS_PING` |
+| UL         | `01 00`        | packet transaction Id |
