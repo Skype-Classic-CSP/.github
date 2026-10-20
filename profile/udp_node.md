@@ -5,5 +5,5 @@ He doesn’t wait for a response from the server; if it didn’t respond, then i
 Structure of the probe packet:
 
 | Field | Byte | Description|
-|---|---|
+|---|---|---|
 | transId | `01 00` | the serial number of the packet |
