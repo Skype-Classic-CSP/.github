@@ -8,9 +8,9 @@ He doesn’t wait for a response from the server; if it didn’t respond, then i
 Structure of the probe packet:
 
 Header:
-| Field | Byte | Description |
-|---|---|---|
-| transId | `02 01` | The serial number of the packet |
-| packetType | `02` | Packet Type |
-| unknown field | `N/A` | ??? |
-| Crc32 | `N/A` | CRC32 of the encrypted payload |
+| Field | Byte | len | Description |
+|---|---|---|---|
+| transId | `02 01` | 2 bytes | The serial number of the packet |
+| packetType | `02` | 1 byte| Packet Type |
+| unknown field | `N/A` | 9 bytes | ??? |
+| Crc32 | `N/A` | 4 bytes | CRC32 of the encrypted payload |
