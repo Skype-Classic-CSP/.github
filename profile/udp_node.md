@@ -3,4 +3,4 @@ During authorization, Skype sends a probe packet to UDP servers to check the ava
 
 He doesn’t wait for a response from the server; if it didn’t respond, then it didn’t respond — he just keeps going.
 
-| transId | `01 00`
+| transId | `01 00` |
