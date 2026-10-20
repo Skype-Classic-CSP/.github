@@ -12,5 +12,5 @@ Header:
 |---|---|---|
 | transId | `02 01` | The serial number of the packet |
 | packetType | `02` | Packet Type |
-| unknown field | `00 00 00 00 00 00 00 00 00` | ??? |
-| Crc32 | `00 00 00 00` | CRC32 of the encrypted payload |
+| unknown field | `N/A` | ??? |
+| Crc32 | `N/A` | CRC32 of the encrypted payload |
