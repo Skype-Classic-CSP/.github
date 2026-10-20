@@ -3,8 +3,6 @@ During authorization, Skype sends a probe packet to UDP servers to check the ava
 
 He doesn’t wait for a response from the server; if it didn’t respond, then it didn’t respond — he just keeps going.
 
-| Packet Type | Description | Server Behavior |
-|---|---|---|
-| `PKT_TYPE_OBFSUK` | Obfuscated UDP packet | Sends a NACK response |
-| `PKT_TYPE_RESEND` | Probe/request packet | Decrypts the payload and validates CRC32 |
-| Unknown | Unsupported packet type | Sends a NACK response |
+| Тип данных | Примерное содержание | Значение |
+| ---------- | -------------------- | -------- |
+| UL         | `05 00 00 00`        | Таймер для команды `MRIM_CS_PING` |
