@@ -13,4 +13,4 @@ Header:
 | transId | `N/A` | 2 bytes | BE | The serial number of the packet |
 | packetType | `N/A` | 1 byte| BE | Packet Type |
 | IV | `N/A` | 4 bytes | BE | IV for RC4 Key |
-| CRC32 | `N/A` | 4 bytes | CRC32 of the encrypted payload |
+| CRC32 | `N/A` | 4 bytes | BE | CRC32 of the encrypted payload |
