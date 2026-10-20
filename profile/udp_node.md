@@ -4,5 +4,6 @@ During authorization, Skype sends a probe packet to UDP servers to check the ava
 He doesn’t wait for a response from the server; if it didn’t respond, then it didn’t respond — he just keeps going.
 Structure of the probe packet:
 
-transId: `01 00`
-type: `...`
+| Field | byte |
+|---|---|
+| transId | `01 00` |
