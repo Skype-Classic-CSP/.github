@@ -5,7 +5,7 @@ During authorization, Skype sends a probe packet to UDP servers to check the ava
 
 He doesn’t wait for a response from the server; if it didn’t respond, then it didn’t respond — he just keeps going.
 
-Structure of the probe packet:
+/*Structure of the probe packet:
 
 Header:
 | Field | Byte | len | Order | Description |
@@ -13,7 +13,7 @@ Header:
 | transId | `N/A` | 2 bytes | BE | The serial number of the packet |
 | packetType | `N/A` | 1 byte| - | Packet Type |
 | IV | `N/A` | 4 bytes | BE | IV for RC4 Key |
-| CRC32 | `N/A` | 4 bytes | BE | CRC32 of the encrypted payload |
+| CRC32 | `N/A` | 4 bytes | BE | CRC32 of the encrypted payload |*/
 
 There are three types of packetType:
 
