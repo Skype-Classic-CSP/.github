@@ -24,3 +24,4 @@ There are three types of packetType:
 | PKT_TYPE_NACK | 0x07 | S >> C | request to resend the packet; it contains the client's IP address |
 
 <a href="#">The structure of the PKT_TYPE_RESEND packet</a>
+<a href="#">The structure of the PKT_TYPE_NACK packet</a>
